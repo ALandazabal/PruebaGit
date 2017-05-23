@@ -1,0 +1,86 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body{
+  margin: 0px;
+    background: #fff;
+}
+body header{
+  margin-top: -1.6%;
+}
+header{
+    background: #CCCAC6;
+    height: 50px;
+    width: auto;
+    margin-left: 11%;
+}
+.menu{
+ margin-top: -50px;
+}
+.menu .lista {
+  clear: both;
+  position: absolute;
+  background-color: #036564;
+  color: #FFFFFF;
+  height: 100%;
+  width: 149.5px;
+  padding-bottom: 0px;
+}
+.menu .lista ul li a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+.menu .lista ul li{
+  list-style: none;
+  margin-left: -40px;
+  padding: 5px 5px 10px 10px;
+}
+.menu .lista ul li a button:hover{
+  background: #CCCAC6;
+}
+.menu .lista ul li a:hover{
+  color: #036564;
+}
+.menu .lista ul{
+  margin-top: 100px;
+}
+.boton{
+
+  color: #000;
+  height: 60px;
+  width: 85px;
+  margin-left: 20px;
+  font-size-adjust: 20px;
+ 
+
+}
+h1,h3,h6,p{
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 30px;
+}
+h1{
+  font-size: 30px;
+  color: #fff;
+}
+h3{
+  font-size: 10px;
+  margin-top: -25px;
+  color: #036564;
+}
+h6{
+  font-size: 15px;
+  margin-left: 500px;
+  color: #fff;
+}
+footer {
+    bottom: 0;
+    margin-top: 410px;
+    margin-left: 11%;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    background: #033649;
+}
