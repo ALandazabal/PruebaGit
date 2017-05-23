@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+<title>Creando Autómatas</title>
+<meta charset="utf-8" />
+<!--<link rel="stylesheet" href="style.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="alternate" title="Pozolería RSS" type="application/rss+xml" href="/feed.rss" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="easeljs-0.6.0.min.js"></script>
+<script type="text/javascript" src="figura.js"></script>
+<script type="text/javascript" src="tpEstado.js"></script>
+<script type="text/javascript" src="probarPalabra.js"></script>
+<script type="text/javascript" src="modernizr.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row-fluid label label-success">
+      <header class="span12 text-center">
+         <h1>Autómatas</h1>
+         <h3>Creando Atómatas - Compiladores Unet</h3>
+      </header>
+    </div>
+
+  <main class="row-fluid">
+    <section class="span3">
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="#" class="label label-info" onclick="tpEvento(0)"><i class="icon icon-circle-arrow-right" aria-hidden="true"></i>Estado inicial </a></li>
+        <li><a href="#" class="label label-info" onclick="tpEvento(1)"><i class="icon icon-ok-circle" aria-hidden="true"></i>Estado</a></li>
+        <li><a href="#" class="label label-info" onclick="tpEvento(7)"><i class="icon icon-ok-circle" aria-hidden="true"></i>Estado f&i</a></li>
+        <li><a href="#" class="label label-info" onclick="tpEvento(2)"><i class="icon icon-plus" aria-hidden="true"></i>Estado final</a></li>
+        <li><a href="#" class="label label-info" onclick="tpEvento(3)"><i class="icon icon-arrow-right" aria-hidden="true"></i>Transición</a></li>
+        <li><a href="#" class="label label-info" onclick="tpEvento(4)"><i class="icon icon-question-sign" aria-hidden="true"></i>Probar</a></li>
+        <li><a href="#" class="label label-info" onclick="tpEvento(5)"><i class="icon icon-ok-circle" aria-hidden="true"></i>Verificar palabra</a></li>
+        <li><a href="#" class="label label-info" onclick="tpEvento(6)"><i class="icon icon-repeat" aria-hidden="true"></i>Reiniciar</a></li>
+      </ul>
+    </section>
+    <section class="span9">
+      <div id="contenedor" style="background-color: black;"></div>
+    </section>
+  </main>
+    <footer class="row-fluid">
+      <section class="span12 text-center label">
+        <h6>&copy; 2017 Derechos Reservados</h6>
+      </section>
+    </footer>
+  </div>
+</body>
+</html>
